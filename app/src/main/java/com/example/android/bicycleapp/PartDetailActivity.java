@@ -27,13 +27,13 @@ public class PartDetailActivity extends ActionBarActivity {
         TextView tvDesc = (TextView) findViewById(R.id.tvDescription);
         tvDesc.setText(bikeApp.getDescription());
 
-        TextView tvCourseNumber = (TextView) findViewById(R.id.tvSerialNumber);
-        tvCourseNumber.setText("BikeApp #: " + bikeApp.getserialn());
+        TextView tvSerialNumber = (TextView) findViewById(R.id.tvSerialNumber);
+        tvSerialNumber.setText("BikeApp #: " + bikeApp.getserialn());
 
         NumberFormat formatter = NumberFormat.getInstance();
         formatter.setMinimumFractionDigits(1);
-        TextView tvCredits = (TextView) findViewById(R.id.tvRatings);
-        tvCredits.setText("Rating: " + formatter.format(bikeApp.getrating()));
+        TextView tvRating = (TextView) findViewById(R.id.tvRatings);
+        tvRating.setText("Rating: " + formatter.format(bikeApp.getrating()));
 
         int imageId = getResources().getIdentifier(
                 bikeApp.getImageName(), "drawable", getPackageName());
