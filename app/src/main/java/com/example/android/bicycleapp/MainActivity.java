@@ -64,7 +64,23 @@ public class MainActivity extends ActionBarActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
+        switch(id){
+            case R.id.action_settings:
+
+                return true;
+
+
+            case R.id.action_about:
+                Intent intent = new Intent(this, AboutPage.class);
+                startActivity(intent);
+
+                return true;
+
+            case R.id.action_contact:
+
+                return true;
+
+        }
         if (id == R.id.action_display_detail) {
             displayDetail(bikeAppData.get(0));
             return true;

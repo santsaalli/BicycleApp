@@ -14,4 +14,8 @@
     <string name="Bike_details">Bike Catalog</string>
     <string name="Bikes">Bicycle</string>
     <string name="watch">Watch Video</string>
+    <string name="about_headline">Company History</string>
+    <string name="about_test">Bicycle help was found in Oulu 2016 by a group of Nepal student in a school called oulu university of applied science.This is a project work in class and will be bla bla bla</string>
+    <string name="title_activity_about_page">AboutPage</string>
+    <string name="Aboutp">ABOUT PAGE</string>
 </resources>
